@@ -1,0 +1,35 @@
+.list {
+    width: 100vw;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 10px;
+}
+
+.list .list__card__content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list .listCard {
+    border: 1px solid rgb(103, 103, 103);
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: flex-start;
+    color: white;
+    font-size: 20px;
+    font-family: verdana;
+    padding: 10px;
+}
+
+.list h1 {
+    font-size: 20px;
+}
+
+.list p {
+    font-size: 13px;
+    color: rgb(225, 225, 225);
+    line-height: 25px;
+    line-break: anywhere;
+}

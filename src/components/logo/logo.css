@@ -1,0 +1,13 @@
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    font-family: verdana;
+    color: white;
+    font-size: 20px;
+}
+
+.heading img {
+    width: 40px;
+}
