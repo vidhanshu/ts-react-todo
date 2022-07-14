@@ -1,7 +1,6 @@
 import { createContext, useState } from "react";
 import Form from "./components/form/Form";
 import List from "./components/list/List";
-import "./app.css";
 
 interface Task {
   id: number;
